@@ -1,3 +1,34 @@
+Setting Up a New Angular 2 Project  - 
+
+Step 1. Set Up the Development Environment
+Install the Angular-CLI globally.
+npm install -g angular-cli
+
+Step 2. Create a New Project
+ng new ClarisightsFilteringAssignment
+
+OR Open Angular Project
+
+FOR Scss - Run the following command:
+ng new ClarisightsFilteringAssignment --style=scss
+
+Step 3: Serve the Application
+Go to the project directory and install node modules in your project directory. Then launch the server using the ng serve command.
+
+cd ClarisightsFilteringAssignment
+
+Once you are inside your project app folder, run the following code:
+
+ng serve
+
+The ng serve command launches the server, watches our files, and rebuilds the app as you make changes to the files.
+
+Open a browser on http://localhost:4200/; the app opens up:
+
+
+
+
+
 # FilteringA
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
