@@ -1,0 +1,27 @@
+@import "_colors";
+//Generates style properties for the various input fields
+//Takes parameters as the state of the field State:(normal/focus/hover etc..)
+//  dimension of the element and text-align property
+
+@mixin input-field ($height: 40px, $width: 150px, $text-align: center){
+  height: $height;
+  width: $width;
+  text-align: $text-align;
+  line-height: $height;
+  box-sizing: border-box;
+  border: $default-border-width solid $input-field-border-color;
+  border-radius: $default-border-radius;
+  box-shadow: $input-field-box-shadow-color $input-field-box-shadow-dimensions;
+
+  ///for focus property
+  ///class is for those which are not input element
+  ///but functions as those (used for container of radio boxes)
+  &:focus,
+  &.focus {
+    //border: $default-border-width solid $input-field-focus-border-color;
+  }
+
+  &.error {
+    box-shadow: 0px 0px 6px $error-highlight-color;
+  }
+}

@@ -1,0 +1,50 @@
+@import "_input-field";
+/*
+* @author - Kunal Kumar
+* @date - 19/nov/2019
+* @description - This file is specific to set style for the Multiselect dropdown
+*
+*/
+/*START*/
+.dropdown-toggle{
+  border: 1px solid $grey;
+  background: $white;
+  width: 130px;
+  padding-left: 10px;
+  height: 27px;
+  display: flex !important;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+.dropdown-menu{
+  display: block;
+  margin: 5px;
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  font-size: 12px;
+}
+.filter-container input{
+  width: 120px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid $grey;
+  padding-left: 10px;
+}
+.filter-item-container {
+  border: 1px solid $grey;
+  border-radius: 4px;
+  border-bottom: 1px solid $grey;
+  height: 130px;
+  line-height: 18px;
+  overflow: auto;
+  background: $white;
+  cursor: pointer;
+}
+.filter-data{
+  background: $light-grey;
+}
+/*END*/
